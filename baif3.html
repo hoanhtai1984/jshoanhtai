@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/png" href="image/favicon_32x32.png">
+  <!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+        body {
+            height: 5000px;
+        }
+
+        img {
+            float: right;
+            margin-left: 15px;
+            width: 200px;
+            height: 200px;
+        }
+
+        .box-static {
+            position: static;
+            width: 100px;
+            border: 1px solid #000;
+        }
+
+        .box-relative {
+            position: relative;
+            top: 20px;
+            left: 30px;
+            width: 100px;
+            border: 1px solid #000;
+        }
+
+        .menu {
+            position: fixed;
+            top: 0;
+            left: 0;      /* vị trí */
+            width: 100%;
+            background: black;
+            color: white;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background: yellow;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h2>CSS Margins</h2>
+
+    <div class="div1">
+        This element has a margin of 70px.
+    </div>
+
+    <div class="div2">
+        This element has a margin of 70px.
+    </div>
+
+    <h2>CSS Height and Width properties</h2>
+
+    <div class="parent">
+        <div class="child">
+            This div element has a height of 70 pixels and a width of 100%.
+        </div>
+    </div>
+    <body>
+
+    <div class="menu">
+        Trang Chủ | Tin Tức | Liên Hệ
+    </div>
+
+    <h2>Position</h2>
+
+    <div class="box-static">
+        Box Static
+    </div>
+
+    <div class="box-relative">
+        Box Relative
+    </div>
+
+    <h2>CSS float: right</h2>
+
+    <p>
+        In this example, the image will float to the right in the div,
+        and the text in the div will wrap around the image.
+    </p>
+
+    <div style="border:1px solid red;">
+
+        <img src="asset/img/logo.png"
+             alt="Pineapple"
+             width="300"
+             height="300">
+
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's
+            standard dummy text ever since the 1500s, when an unknown
+            printer took a galley of type and scrambled it to make a
+            type specimen book. It has survived not only five centuries,
+            but also the leap into electronic typesetting, remaining
+            essentially unchanged. It was popularised in the 1960s with
+            the release of Letraset sheets containing Lorem Ipsum
+            passages, and more recently with desktop publishing software
+            like Aldus PageMaker and Microsoft Word including versions
+            of Lorem Ipsum.
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Phasellus...
+        </p>
+
+    </div>
+
+    <nav>
+        Trang Chủ | Tin Tức | Sticky
+    </nav>
+
+</body>
+
+</body>
+</html>

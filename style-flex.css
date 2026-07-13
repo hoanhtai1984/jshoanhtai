@@ -1,0 +1,56 @@
+.container-1 {
+    display: flex;
+    gap: 10px;
+    background: #f2f2f2;
+    padding: 20px;
+}
+
+.item-1 {
+    background: #4CAF50;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.container-2 {
+    display: flex;
+    gap: 10px;
+    flex-direction: column; /* xếp theo cột dọc */
+    background: #f2f2f2;
+    padding: 20px;
+}
+
+.item-2 {
+    background: #4CAF50;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+}
+.container-4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background: #f2f2f2;
+    padding: 20px;
+    width: 20%;
+}
+.container-3 {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 300px;
+    background: #f2f2f2;
+}
+
+.box-3 {
+    background: tomato;
+    color: white;
+    padding: 40px;
+}
+
+.item-4 {
+    background: #4CAF50;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+}
